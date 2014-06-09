@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6332CA5319461AF90057F003 /* KNMNibLoadedViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6332CA5C19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5419461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6332CA5D19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5519461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m */; };
+		6332CA5E19461BDF0057F003 /* KNMNibLoadedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5619461BDF0057F003 /* KNMNibLoadedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6332CA5F19461BDF0057F003 /* KNMNibLoadedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5719461BDF0057F003 /* KNMNibLoadedTableViewCell.m */; };
+		6332CA6019461BDF0057F003 /* KNMNibLoadedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5819461BDF0057F003 /* KNMNibLoadedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6332CA6119461BDF0057F003 /* KNMNibLoadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5919461BDF0057F003 /* KNMNibLoadedView.m */; };
+		6332CA6219461BDF0057F003 /* KNMNibViewLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5A19461BDF0057F003 /* KNMNibViewLoader.h */; };
+		6332CA6319461BDF0057F003 /* KNMNibViewLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5B19461BDF0057F003 /* KNMNibViewLoader.m */; };
+		6332CA7519461CE30057F003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6332CA7319461CE30057F003 /* InfoPlist.strings */; };
+		6332CA7719461CE30057F003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA7619461CE30057F003 /* main.m */; };
+		6332CA7B19461CE30057F003 /* KNMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA7A19461CE30057F003 /* KNMAppDelegate.m */; };
+		6332CA7E19461CE30057F003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6332CA7C19461CE30057F003 /* Main.storyboard */; };
+		6332CA8619461CE30057F003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6332CA8519461CE30057F003 /* Images.xcassets */; };
+		6332CAA119461D7B0057F003 /* KNMSampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6332CAA019461D7B0057F003 /* KNMSampleView.xib */; };
+		6332CAA419461D940057F003 /* KNMSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CAA319461D940057F003 /* KNMSampleView.m */; };
+		6332CAA819461EBA0057F003 /* libnibloadedviews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332CA2819461A120057F003 /* libnibloadedviews.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6332CAA619461EB80057F003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6332CA2019461A120057F003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6332CA2719461A120057F003;
+			remoteInfo = "library-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6332CA2819461A120057F003 /* libnibloadedviews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnibloadedviews.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6332CA2F19461A120057F003 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMNibLoadedViews.h; sourceTree = "<group>"; };
+		6332CA5419461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMNibLoadedCollectionViewCell.h; sourceTree = "<group>"; };
+		6332CA5519461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNMNibLoadedCollectionViewCell.m; sourceTree = "<group>"; };
+		6332CA5619461BDF0057F003 /* KNMNibLoadedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMNibLoadedTableViewCell.h; sourceTree = "<group>"; };
+		6332CA5719461BDF0057F003 /* KNMNibLoadedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNMNibLoadedTableViewCell.m; sourceTree = "<group>"; };
+		6332CA5819461BDF0057F003 /* KNMNibLoadedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMNibLoadedView.h; sourceTree = "<group>"; };
+		6332CA5919461BDF0057F003 /* KNMNibLoadedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNMNibLoadedView.m; sourceTree = "<group>"; };
+		6332CA5A19461BDF0057F003 /* KNMNibViewLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMNibViewLoader.h; sourceTree = "<group>"; };
+		6332CA5B19461BDF0057F003 /* KNMNibViewLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNMNibViewLoader.m; sourceTree = "<group>"; };
+		6332CA6819461CE30057F003 /* Nib Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nib Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6332CA7219461CE30057F003 /* example-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "example-ios-Info.plist"; sourceTree = "<group>"; };
+		6332CA7419461CE30057F003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6332CA7619461CE30057F003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6332CA7819461CE30057F003 /* example-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "example-ios-Prefix.pch"; sourceTree = "<group>"; };
+		6332CA7A19461CE30057F003 /* KNMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNMAppDelegate.m; sourceTree = "<group>"; };
+		6332CA7D19461CE30057F003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6332CA8519461CE30057F003 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6332CAA019461D7B0057F003 /* KNMSampleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KNMSampleView.xib; sourceTree = "<group>"; };
+		6332CAA219461D940057F003 /* KNMSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMSampleView.h; sourceTree = "<group>"; };
+		6332CAA319461D940057F003 /* KNMSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNMSampleView.m; sourceTree = "<group>"; };
+		6332CAA519461E8C0057F003 /* KNMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNMAppDelegate.h; sourceTree = "<group>"; };
+		6332CAAA194622AC0057F003 /* KNMNibLoadedViews.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KNMNibLoadedViews.podspec; sourceTree = "<group>"; };
+		6332CAAB194622AC0057F003 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6332CAAC194622AC0057F003 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6332CA2519461A120057F003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6332CA6519461CE30057F003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332CAA819461EBA0057F003 /* libnibloadedviews.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6332CA1F19461A120057F003 = {
+			isa = PBXGroup;
+			children = (
+				6332CA2D19461A120057F003 /* Sources */,
+				6332CA7019461CE30057F003 /* Example */,
+				6332CAA91946229A0057F003 /* Documentation */,
+				6332CA2919461A120057F003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6332CA2919461A120057F003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6332CA2819461A120057F003 /* libnibloadedviews.a */,
+				6332CA6819461CE30057F003 /* Nib Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6332CA2D19461A120057F003 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6332CA2F19461A120057F003 /* Prefix.pch */,
+				6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */,
+				6332CA5819461BDF0057F003 /* KNMNibLoadedView.h */,
+				6332CA5919461BDF0057F003 /* KNMNibLoadedView.m */,
+				6332CA5419461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h */,
+				6332CA5519461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m */,
+				6332CA5619461BDF0057F003 /* KNMNibLoadedTableViewCell.h */,
+				6332CA5719461BDF0057F003 /* KNMNibLoadedTableViewCell.m */,
+				6332CA5A19461BDF0057F003 /* KNMNibViewLoader.h */,
+				6332CA5B19461BDF0057F003 /* KNMNibViewLoader.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6332CA7019461CE30057F003 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				6332CAA519461E8C0057F003 /* KNMAppDelegate.h */,
+				6332CA7A19461CE30057F003 /* KNMAppDelegate.m */,
+				6332CA7C19461CE30057F003 /* Main.storyboard */,
+				6332CAA219461D940057F003 /* KNMSampleView.h */,
+				6332CAA319461D940057F003 /* KNMSampleView.m */,
+				6332CAA019461D7B0057F003 /* KNMSampleView.xib */,
+				6332CA7119461CE30057F003 /* Supporting Files */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		6332CA7119461CE30057F003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6332CA8519461CE30057F003 /* Images.xcassets */,
+				6332CA7219461CE30057F003 /* example-ios-Info.plist */,
+				6332CA7319461CE30057F003 /* InfoPlist.strings */,
+				6332CA7619461CE30057F003 /* main.m */,
+				6332CA7819461CE30057F003 /* example-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6332CAA91946229A0057F003 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				6332CAAC194622AC0057F003 /* README.md */,
+				6332CAAA194622AC0057F003 /* KNMNibLoadedViews.podspec */,
+				6332CAAB194622AC0057F003 /* LICENSE */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6332CA5219461AF50057F003 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332CA5C19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h in Headers */,
+				6332CA5319461AF90057F003 /* KNMNibLoadedViews.h in Headers */,
+				6332CA6219461BDF0057F003 /* KNMNibViewLoader.h in Headers */,
+				6332CA5E19461BDF0057F003 /* KNMNibLoadedTableViewCell.h in Headers */,
+				6332CA6019461BDF0057F003 /* KNMNibLoadedView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6332CA2719461A120057F003 /* library-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6332CA4B19461A120057F003 /* Build configuration list for PBXNativeTarget "library-ios" */;
+			buildPhases = (
+				6332CA2419461A120057F003 /* Sources */,
+				6332CA2519461A120057F003 /* Frameworks */,
+				6332CA5219461AF50057F003 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "library-ios";
+			productName = "library-ios";
+			productReference = 6332CA2819461A120057F003 /* libnibloadedviews.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6332CA6719461CE30057F003 /* example-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6332CA9A19461CE30057F003 /* Build configuration list for PBXNativeTarget "example-ios" */;
+			buildPhases = (
+				6332CA6419461CE30057F003 /* Sources */,
+				6332CA6519461CE30057F003 /* Frameworks */,
+				6332CA6619461CE30057F003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6332CAA719461EB80057F003 /* PBXTargetDependency */,
+			);
+			name = "example-ios";
+			productName = "example-ios";
+			productReference = 6332CA6819461CE30057F003 /* Nib Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6332CA2019461A120057F003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "konoma GmbH";
+			};
+			buildConfigurationList = 6332CA2319461A120057F003 /* Build configuration list for PBXProject "KNMNibLoadedViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6332CA1F19461A120057F003;
+			productRefGroup = 6332CA2919461A120057F003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6332CA2719461A120057F003 /* library-ios */,
+				6332CA6719461CE30057F003 /* example-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6332CA6619461CE30057F003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332CA8619461CE30057F003 /* Images.xcassets in Resources */,
+				6332CAA119461D7B0057F003 /* KNMSampleView.xib in Resources */,
+				6332CA7E19461CE30057F003 /* Main.storyboard in Resources */,
+				6332CA7519461CE30057F003 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6332CA2419461A120057F003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332CA5D19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m in Sources */,
+				6332CA5F19461BDF0057F003 /* KNMNibLoadedTableViewCell.m in Sources */,
+				6332CA6319461BDF0057F003 /* KNMNibViewLoader.m in Sources */,
+				6332CA6119461BDF0057F003 /* KNMNibLoadedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6332CA6419461CE30057F003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6332CA7719461CE30057F003 /* main.m in Sources */,
+				6332CAA419461D940057F003 /* KNMSampleView.m in Sources */,
+				6332CA7B19461CE30057F003 /* KNMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6332CAA719461EB80057F003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6332CA2719461A120057F003 /* library-ios */;
+			targetProxy = 6332CAA619461EB80057F003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6332CA7319461CE30057F003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6332CA7419461CE30057F003 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6332CA7C19461CE30057F003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6332CA7D19461CE30057F003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6332CA4919461A120057F003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6332CA4A19461A120057F003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6332CA4C19461A120057F003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/library_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = nibloadedviews;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6332CA4D19461A120057F003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/library_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = nibloadedviews;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6332CA9B19461CE30057F003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/example-ios-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Example/example-ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Nib Example";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6332CA9C19461CE30057F003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/example-ios-Prefix.pch";
+				INFOPLIST_FILE = "Example/example-ios-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Nib Example";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6332CA2319461A120057F003 /* Build configuration list for PBXProject "KNMNibLoadedViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332CA4919461A120057F003 /* Debug */,
+				6332CA4A19461A120057F003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6332CA4B19461A120057F003 /* Build configuration list for PBXNativeTarget "library-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332CA4C19461A120057F003 /* Debug */,
+				6332CA4D19461A120057F003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6332CA9A19461CE30057F003 /* Build configuration list for PBXNativeTarget "example-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6332CA9B19461CE30057F003 /* Debug */,
+				6332CA9C19461CE30057F003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6332CA2019461A120057F003 /* Project object */;
+}
