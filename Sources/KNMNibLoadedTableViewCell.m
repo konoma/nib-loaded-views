@@ -36,6 +36,7 @@
                                                                     contentViewIndex:[[self class] nibContentViewIndex]
                                                                              options:[[self class] nibLoadingOptions]];
     nibView.frame = self.contentView.bounds;
+    nibView.translatesAutoresizingMaskIntoConstraints = YES;
     nibView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
     [self.contentView addSubview:nibView];
 }
