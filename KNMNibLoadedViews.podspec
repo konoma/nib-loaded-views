@@ -4,12 +4,12 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.name         = "KNMNibLoadedViews"
-  s.version      = "1.0.1"
+  s.version      = "1.1.0"
   s.summary      = "Support for views loaded from NIB/XIB files"
   
   s.description  = <<-DESC
-Provides subclasses of UIView, UITableViewCell and UICollectionViewCell that load their content from a NIB/XIB file.
-If the XIB file has the same name as the view subclass, then no futher configuration is needed.
+Provides subclasses of UIView, UIControl, UITableViewCell and UICollectionViewCell that load their content from a NIB/XIB file.
+If the XIB file has the same name as the view subclass, ususally no futher configuration is needed.
 
 There's a simple example project in the repo which demonstrates the basic functionality of the library.
 DESC
@@ -34,7 +34,7 @@ DESC
   
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.source       = { :git => "https://github.com/konoma/nib-loaded-views.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/konoma/nib-loaded-views.git", :tag => "1.1.0" }
   
   
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 #import <KNMNibLoadedViews/KNMNibLoadedView.h>
+#import <KNMNibLoadedViews/KNMNibLoadedControl.h>
 #import <KNMNibLoadedViews/KNMNibLoadedCollectionViewCell.h>
 #import <KNMNibLoadedViews/KNMNibLoadedTableViewCell.h>
