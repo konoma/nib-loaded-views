@@ -24,6 +24,8 @@
 		6332CAA119461D7B0057F003 /* KNMSampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6332CAA019461D7B0057F003 /* KNMSampleView.xib */; };
 		6332CAA419461D940057F003 /* KNMSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CAA319461D940057F003 /* KNMSampleView.m */; };
 		6332CAA819461EBA0057F003 /* libnibloadedviews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332CA2819461A120057F003 /* libnibloadedviews.a */; };
+		63C17E091A88D8B60096D1D2 /* KNMNibLoadedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C17E071A88D8B60096D1D2 /* KNMNibLoadedControl.h */; };
+		63C17E0A1A88D8B60096D1D2 /* KNMNibLoadedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C17E081A88D8B60096D1D2 /* KNMNibLoadedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		6332CAAA194622AC0057F003 /* KNMNibLoadedViews.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KNMNibLoadedViews.podspec; sourceTree = "<group>"; };
 		6332CAAB194622AC0057F003 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6332CAAC194622AC0057F003 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		63C17E071A88D8B60096D1D2 /* KNMNibLoadedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMNibLoadedControl.h; sourceTree = "<group>"; };
+		63C17E081A88D8B60096D1D2 /* KNMNibLoadedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNMNibLoadedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */,
 				6332CA5819461BDF0057F003 /* KNMNibLoadedView.h */,
 				6332CA5919461BDF0057F003 /* KNMNibLoadedView.m */,
+				63C17E071A88D8B60096D1D2 /* KNMNibLoadedControl.h */,
+				63C17E081A88D8B60096D1D2 /* KNMNibLoadedControl.m */,
 				6332CA5419461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h */,
 				6332CA5519461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m */,
 				6332CA5619461BDF0057F003 /* KNMNibLoadedTableViewCell.h */,
@@ -165,6 +171,7 @@
 			files = (
 				6332CA5C19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h in Headers */,
 				6332CA5319461AF90057F003 /* KNMNibLoadedViews.h in Headers */,
+				63C17E091A88D8B60096D1D2 /* KNMNibLoadedControl.h in Headers */,
 				6332CA6219461BDF0057F003 /* KNMNibViewLoader.h in Headers */,
 				6332CA5E19461BDF0057F003 /* KNMNibLoadedTableViewCell.h in Headers */,
 				6332CA6019461BDF0057F003 /* KNMNibLoadedView.h in Headers */,
@@ -258,6 +265,7 @@
 			files = (
 				6332CA5D19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m in Sources */,
 				6332CA5F19461BDF0057F003 /* KNMNibLoadedTableViewCell.m in Sources */,
+				63C17E0A1A88D8B60096D1D2 /* KNMNibLoadedControl.m in Sources */,
 				6332CA6319461BDF0057F003 /* KNMNibViewLoader.m in Sources */,
 				6332CA6119461BDF0057F003 /* KNMNibLoadedView.m in Sources */,
 			);
@@ -459,6 +467,7 @@
 				6332CA9C19461CE30057F003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

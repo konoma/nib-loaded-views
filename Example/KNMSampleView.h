@@ -8,7 +8,12 @@
 
 #import "KNMNibLoadedView.h"
 
+#ifndef IB_DESIGNABLE
+#define IB_DESIGNABLE
+#endif
 
+
+IB_DESIGNABLE
 @interface KNMSampleView : KNMNibLoadedView
 
 @property (nonatomic, weak) IBOutlet UILabel *label;
