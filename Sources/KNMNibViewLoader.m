@@ -30,10 +30,14 @@
     return registry;
 }
 
-+ (instancetype)loaderForNibNamed:(NSString *)nibName inBundle:(NSBundle *)nibBundle
++ (instancetype)loaderForNibNamed:(NSString *)nibName orClass:(Class)cls inBundle:(NSBundle *)nibBundle
 {
-    NSParameterAssert(nibName != nil);
+    NSParameterAssert(nibName != nil || cls != nil);
     NSParameterAssert(nibBundle != nil);
+    
+    if (nibName == nil) {
+        nibName = [NSStringFromClass(cls) componentsSeparatedByString:@"."].lastObject; // split class name from swift module
+    }
     
     KNMNibViewLoader *loader = [[self loaderRegistry] objectForKey:nibName];
     if (loader == nil) {
@@ -45,6 +49,9 @@
 
 - (instancetype)initWithNibName:(NSString *)nibName bundle:(NSBundle *)nibBundle
 {
+    NSParameterAssert(nibName != nil);
+    NSParameterAssert(nibBundle != nil);
+    
     if ((self = [super init])) {
         _nibName = nibName;
         _nibBundle = nibBundle;

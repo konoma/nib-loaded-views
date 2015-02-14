@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631894DD1A8F6F44001EFE8B /* KNMSwiftSampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 631894DC1A8F6F3E001EFE8B /* KNMSwiftSampleView.xib */; };
+		631894E01A8F6F67001EFE8B /* KNMSwiftSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631894DF1A8F6F67001EFE8B /* KNMSwiftSampleView.swift */; };
 		6332CA5319461AF90057F003 /* KNMNibLoadedViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6332CA5C19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5419461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6332CA5D19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5519461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		631894DC1A8F6F3E001EFE8B /* KNMSwiftSampleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KNMSwiftSampleView.xib; sourceTree = "<group>"; };
+		631894DE1A8F6F66001EFE8B /* example-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "example-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		631894DF1A8F6F67001EFE8B /* KNMSwiftSampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNMSwiftSampleView.swift; sourceTree = "<group>"; };
 		6332CA2819461A120057F003 /* libnibloadedviews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnibloadedviews.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6332CA2F19461A120057F003 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMNibLoadedViews.h; sourceTree = "<group>"; };
@@ -135,6 +140,8 @@
 				6332CAA219461D940057F003 /* KNMSampleView.h */,
 				6332CAA319461D940057F003 /* KNMSampleView.m */,
 				6332CAA019461D7B0057F003 /* KNMSampleView.xib */,
+				631894DF1A8F6F67001EFE8B /* KNMSwiftSampleView.swift */,
+				631894DC1A8F6F3E001EFE8B /* KNMSwiftSampleView.xib */,
 				6332CA7119461CE30057F003 /* Supporting Files */,
 			);
 			path = Example;
@@ -145,6 +152,7 @@
 			children = (
 				6332CA8519461CE30057F003 /* Images.xcassets */,
 				6332CA7219461CE30057F003 /* example-ios-Info.plist */,
+				631894DE1A8F6F66001EFE8B /* example-ios-Bridging-Header.h */,
 				6332CA7319461CE30057F003 /* InfoPlist.strings */,
 				6332CA7619461CE30057F003 /* main.m */,
 				6332CA7819461CE30057F003 /* example-ios-Prefix.pch */,
@@ -252,6 +260,7 @@
 				6332CA8619461CE30057F003 /* Images.xcassets in Resources */,
 				6332CAA119461D7B0057F003 /* KNMSampleView.xib in Resources */,
 				6332CA7E19461CE30057F003 /* Main.storyboard in Resources */,
+				631894DD1A8F6F44001EFE8B /* KNMSwiftSampleView.xib in Resources */,
 				6332CA7519461CE30057F003 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +287,7 @@
 				6332CA7719461CE30057F003 /* main.m in Sources */,
 				6332CAA419461D940057F003 /* KNMSampleView.m in Sources */,
 				6332CA7B19461CE30057F003 /* KNMAppDelegate.m in Sources */,
+				631894E01A8F6F67001EFE8B /* KNMSwiftSampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/example-ios-Prefix.pch";
@@ -417,7 +428,10 @@
 				);
 				INFOPLIST_FILE = "Example/example-ios-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Nib Example";
+				SWIFT_OBJC_BRIDGING_HEADER = "Example/example-ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -428,12 +442,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/example-ios-Prefix.pch";
 				INFOPLIST_FILE = "Example/example-ios-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Nib Example";
+				SWIFT_OBJC_BRIDGING_HEADER = "Example/example-ios-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

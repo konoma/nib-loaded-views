@@ -12,6 +12,8 @@
 
 @implementation KNMNibLoadedView
 
+IMPLEMENT_NIB_VIEW_CONFIGURATION
+
 #pragma mark - Initialization
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -39,34 +41,6 @@
     nibView.translatesAutoresizingMaskIntoConstraints = YES;
     nibView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
     [self addSubview:nibView];
-}
-
-
-#pragma mark - Configuration
-
-+ (KNMNibViewLoader *)_knm_nibViewLoader
-{
-    return [KNMNibViewLoader loaderForNibNamed:([self nibName] ?: NSStringFromClass(self)) inBundle:[NSBundle bundleForClass:self]];
-}
-
-+ (NSString *)nibName
-{
-    return nil;
-}
-                       
-+ (NSUInteger)nibContentViewIndex
-{
-    return 0;
-}
-
-+ (NSDictionary *)nibLoadingOptions
-{
-    return nil;
-}
-
-+ (UINib *)nib
-{
-    return [[self _knm_nibViewLoader] nib];
 }
 
 @end
