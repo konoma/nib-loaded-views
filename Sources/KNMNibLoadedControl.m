@@ -10,7 +10,9 @@
 #import "KNMNibViewLoader.h"
 
 
-@implementation KNMNibLoadedControl
+@implementation KNMNibLoadedControl {
+    UIView *_knm_nibContentView;
+}
 
 IMPLEMENT_NIB_VIEW_CONFIGURATION
 
@@ -38,6 +40,16 @@ IMPLEMENT_NIB_VIEW_CONFIGURATION
     nibView.translatesAutoresizingMaskIntoConstraints = YES;
     nibView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
     [self insertSubview:nibView atIndex:0];
+
+    _knm_nibContentView = nibView;
+}
+
+
+#pragma mark - Tracking
+
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    UIView *hitView = [super hitTest:point withEvent:event];
+    return (hitView != _knm_nibContentView ? hitView : self);
 }
 
 @end
