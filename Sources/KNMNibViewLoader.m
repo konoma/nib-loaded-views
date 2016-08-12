@@ -16,12 +16,12 @@
 
 @end
 
+
 @implementation KNMNibViewLoader
 
 #pragma mark - Initialization
 
-+ (NSMutableDictionary *)loaderRegistry
-{
++ (NSMutableDictionary *)loaderRegistry {
     static dispatch_once_t onceToken;
     static NSMutableDictionary *registry;
     dispatch_once(&onceToken, ^{
@@ -30,14 +30,9 @@
     return registry;
 }
 
-+ (instancetype)loaderForNibNamed:(NSString *)nibName orClass:(Class)cls inBundle:(NSBundle *)nibBundle
-{
-    NSParameterAssert(nibName != nil || cls != nil);
++ (instancetype)loaderForNibNamed:(NSString *)nibName inBundle:(NSBundle *)nibBundle {
+    NSParameterAssert(nibName != nil);
     NSParameterAssert(nibBundle != nil);
-    
-    if (nibName == nil) {
-        nibName = [NSStringFromClass(cls) componentsSeparatedByString:@"."].lastObject; // split class name from swift module
-    }
     
     KNMNibViewLoader *loader = [[self loaderRegistry] objectForKey:nibName];
     if (loader == nil) {
@@ -47,8 +42,11 @@
     return loader;
 }
 
-- (instancetype)initWithNibName:(NSString *)nibName bundle:(NSBundle *)nibBundle
-{
++ (NSString *)defaultNibNameForClass:(Class)cls {
+    return [NSStringFromClass(cls) componentsSeparatedByString:@"."].lastObject; // split class name from swift module
+}
+
+- (instancetype)initWithNibName:(NSString *)nibName bundle:(NSBundle *)nibBundle {
     NSParameterAssert(nibName != nil);
     NSParameterAssert(nibBundle != nil);
     
@@ -64,8 +62,7 @@
 
 @synthesize nib = _nib;
 
-- (UINib *)nib
-{
+- (UINib *)nib {
     if (_nib == nil) {
         _nib = [UINib nibWithNibName:self.nibName bundle:self.nibBundle];
         if (_nib == nil) {
@@ -76,8 +73,7 @@
     return _nib;
 }
 
-- (UIView *)loadContentFromNibWithOwner:(id)owner contentViewIndex:(NSUInteger)contentViewIndex options:(NSDictionary *)options
-{
+- (UIView *)loadContentFromNibWithOwner:(id)owner contentViewIndex:(NSUInteger)contentViewIndex options:(NSDictionary *)options {
     NSArray *objects = [self.nib instantiateWithOwner:owner options:options];
     
     if (objects.count <= contentViewIndex || ![objects[contentViewIndex] isKindOfClass:[UIView class]]) {

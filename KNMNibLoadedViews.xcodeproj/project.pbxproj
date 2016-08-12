@@ -230,6 +230,7 @@
 		6332CA2019461A120057F003 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "konoma GmbH";
 			};

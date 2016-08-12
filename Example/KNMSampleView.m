@@ -11,8 +11,7 @@
 
 @implementation KNMSampleView
 
-- (void)awakeFromNib
-{
+- (void)awakeFromNib {
     [super awakeFromNib];
     
     self.label.font = [UIFont boldSystemFontOfSize:20.0f];
