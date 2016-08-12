@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.name         = "KNMNibLoadedViews"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "Support for views loaded from NIB/XIB files"
   
   s.description  = <<-DESC
@@ -34,7 +34,7 @@ DESC
   
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.source       = { :git => "https://github.com/konoma/nib-loaded-views.git", :tag => "1.2.0" }
+  s.source       = { :git => "https://github.com/konoma/nib-loaded-views.git", :tag => "1.2.1" }
   
   
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
