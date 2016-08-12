@@ -40,7 +40,7 @@ IMPLEMENT_NIB_VIEW_CONFIGURATION
     nibView.frame = self.contentView.bounds;
     nibView.translatesAutoresizingMaskIntoConstraints = YES;
     nibView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-    [self.contentView addSubview:nibView];
+    [self.contentView insertSubview:nibView atIndex:0];
 }
 
 @end
