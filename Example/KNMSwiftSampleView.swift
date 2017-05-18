@@ -7,15 +7,16 @@
 //
 
 import Foundation
+import KNMNibLoadedViews
 
 
 @IBDesignable class KNMSwiftSampleView: KNMNibLoadedView {
     
-    @IBOutlet private var label: UILabel!
+    @IBOutlet fileprivate var label: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        self.label.font = UIFont.boldSystemFontOfSize(20.0)
+        self.label.font = UIFont.boldSystemFont(ofSize: 20.0)
     }
 }

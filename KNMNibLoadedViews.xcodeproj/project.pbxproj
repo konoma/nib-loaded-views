@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05E87BA71ECDDEC2008FA332 /* KNMNibLoadedViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E87BA01ECDDEC2008FA332 /* KNMNibLoadedViews.framework */; };
+		05E87BA81ECDDEC2008FA332 /* KNMNibLoadedViews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05E87BA01ECDDEC2008FA332 /* KNMNibLoadedViews.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05E87BAE1ECDDF3B008FA332 /* KNMNibLoadedViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05E87BAF1ECDDF3B008FA332 /* KNMNibLoadedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5819461BDF0057F003 /* KNMNibLoadedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05E87BB01ECDDF3B008FA332 /* KNMNibLoadedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C17E071A88D8B60096D1D2 /* KNMNibLoadedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05E87BB11ECDDF3B008FA332 /* KNMNibLoadedCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5419461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05E87BB21ECDDF3B008FA332 /* KNMNibLoadedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5619461BDF0057F003 /* KNMNibLoadedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05E87BB31ECDDF40008FA332 /* KNMNibViewLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5A19461BDF0057F003 /* KNMNibViewLoader.h */; };
+		05E87BB41ECDDF46008FA332 /* KNMNibLoadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5919461BDF0057F003 /* KNMNibLoadedView.m */; };
+		05E87BB51ECDDF46008FA332 /* KNMNibLoadedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C17E081A88D8B60096D1D2 /* KNMNibLoadedControl.m */; };
+		05E87BB61ECDDF46008FA332 /* KNMNibLoadedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5519461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m */; };
+		05E87BB71ECDDF46008FA332 /* KNMNibLoadedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5719461BDF0057F003 /* KNMNibLoadedTableViewCell.m */; };
+		05E87BB81ECDDF46008FA332 /* KNMNibViewLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5B19461BDF0057F003 /* KNMNibViewLoader.m */; };
+		05E87BBB1ECDE0B2008FA332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E87BB91ECDE08D008FA332 /* LaunchScreen.storyboard */; };
 		631894DD1A8F6F44001EFE8B /* KNMSwiftSampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 631894DC1A8F6F3E001EFE8B /* KNMSwiftSampleView.xib */; };
 		631894E01A8F6F67001EFE8B /* KNMSwiftSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631894DF1A8F6F67001EFE8B /* KNMSwiftSampleView.swift */; };
-		6332CA5319461AF90057F003 /* KNMNibLoadedViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6332CA5C19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5419461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6332CA5D19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5519461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m */; };
-		6332CA5E19461BDF0057F003 /* KNMNibLoadedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5619461BDF0057F003 /* KNMNibLoadedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6332CA5F19461BDF0057F003 /* KNMNibLoadedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5719461BDF0057F003 /* KNMNibLoadedTableViewCell.m */; };
-		6332CA6019461BDF0057F003 /* KNMNibLoadedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5819461BDF0057F003 /* KNMNibLoadedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6332CA6119461BDF0057F003 /* KNMNibLoadedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5919461BDF0057F003 /* KNMNibLoadedView.m */; };
-		6332CA6219461BDF0057F003 /* KNMNibViewLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6332CA5A19461BDF0057F003 /* KNMNibViewLoader.h */; };
-		6332CA6319461BDF0057F003 /* KNMNibViewLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA5B19461BDF0057F003 /* KNMNibViewLoader.m */; };
 		6332CA7519461CE30057F003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6332CA7319461CE30057F003 /* InfoPlist.strings */; };
 		6332CA7719461CE30057F003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA7619461CE30057F003 /* main.m */; };
 		6332CA7B19461CE30057F003 /* KNMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CA7A19461CE30057F003 /* KNMAppDelegate.m */; };
@@ -25,26 +30,39 @@
 		6332CA8619461CE30057F003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6332CA8519461CE30057F003 /* Images.xcassets */; };
 		6332CAA119461D7B0057F003 /* KNMSampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6332CAA019461D7B0057F003 /* KNMSampleView.xib */; };
 		6332CAA419461D940057F003 /* KNMSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332CAA319461D940057F003 /* KNMSampleView.m */; };
-		6332CAA819461EBA0057F003 /* libnibloadedviews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332CA2819461A120057F003 /* libnibloadedviews.a */; };
-		63C17E091A88D8B60096D1D2 /* KNMNibLoadedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C17E071A88D8B60096D1D2 /* KNMNibLoadedControl.h */; };
-		63C17E0A1A88D8B60096D1D2 /* KNMNibLoadedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C17E081A88D8B60096D1D2 /* KNMNibLoadedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6332CAA619461EB80057F003 /* PBXContainerItemProxy */ = {
+		05E87BA51ECDDEC2008FA332 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6332CA2019461A120057F003 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6332CA2719461A120057F003;
-			remoteInfo = "library-ios";
+			remoteGlobalIDString = 05E87B9F1ECDDEC2008FA332;
+			remoteInfo = KNMNibLoadedViews;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		05E87BAC1ECDDEC2008FA332 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05E87BA81ECDDEC2008FA332 /* KNMNibLoadedViews.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		05E87BA01ECDDEC2008FA332 /* KNMNibLoadedViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KNMNibLoadedViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E87BAD1ECDDEF5008FA332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E87BB91ECDE08D008FA332 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		631894DC1A8F6F3E001EFE8B /* KNMSwiftSampleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KNMSwiftSampleView.xib; sourceTree = "<group>"; };
 		631894DE1A8F6F66001EFE8B /* example-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "example-ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		631894DF1A8F6F67001EFE8B /* KNMSwiftSampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNMSwiftSampleView.swift; sourceTree = "<group>"; };
-		6332CA2819461A120057F003 /* libnibloadedviews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnibloadedviews.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6332CA2F19461A120057F003 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMNibLoadedViews.h; sourceTree = "<group>"; };
 		6332CA5419461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNMNibLoadedCollectionViewCell.h; sourceTree = "<group>"; };
@@ -75,7 +93,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6332CA2519461A120057F003 /* Frameworks */ = {
+		05E87B9C1ECDDEC2008FA332 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6332CAA819461EBA0057F003 /* libnibloadedviews.a in Frameworks */,
+				05E87BA71ECDDEC2008FA332 /* KNMNibLoadedViews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +124,8 @@
 		6332CA2919461A120057F003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6332CA2819461A120057F003 /* libnibloadedviews.a */,
 				6332CA6819461CE30057F003 /* Nib Example.app */,
+				05E87BA01ECDDEC2008FA332 /* KNMNibLoadedViews.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +133,7 @@
 		6332CA2D19461A120057F003 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				05E87BAD1ECDDEF5008FA332 /* Info.plist */,
 				6332CA2F19461A120057F003 /* Prefix.pch */,
 				6332CA5119461AE60057F003 /* KNMNibLoadedViews.h */,
 				6332CA5819461BDF0057F003 /* KNMNibLoadedView.h */,
@@ -136,6 +155,7 @@
 			children = (
 				6332CAA519461E8C0057F003 /* KNMAppDelegate.h */,
 				6332CA7A19461CE30057F003 /* KNMAppDelegate.m */,
+				05E87BB91ECDE08D008FA332 /* LaunchScreen.storyboard */,
 				6332CA7C19461CE30057F003 /* Main.storyboard */,
 				6332CAA219461D940057F003 /* KNMSampleView.h */,
 				6332CAA319461D940057F003 /* KNMSampleView.m */,
@@ -173,38 +193,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6332CA5219461AF50057F003 /* Headers */ = {
+		05E87B9D1ECDDEC2008FA332 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6332CA5C19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.h in Headers */,
-				6332CA5319461AF90057F003 /* KNMNibLoadedViews.h in Headers */,
-				63C17E091A88D8B60096D1D2 /* KNMNibLoadedControl.h in Headers */,
-				6332CA6219461BDF0057F003 /* KNMNibViewLoader.h in Headers */,
-				6332CA5E19461BDF0057F003 /* KNMNibLoadedTableViewCell.h in Headers */,
-				6332CA6019461BDF0057F003 /* KNMNibLoadedView.h in Headers */,
+				05E87BAE1ECDDF3B008FA332 /* KNMNibLoadedViews.h in Headers */,
+				05E87BB21ECDDF3B008FA332 /* KNMNibLoadedTableViewCell.h in Headers */,
+				05E87BAF1ECDDF3B008FA332 /* KNMNibLoadedView.h in Headers */,
+				05E87BB31ECDDF40008FA332 /* KNMNibViewLoader.h in Headers */,
+				05E87BB11ECDDF3B008FA332 /* KNMNibLoadedCollectionViewCell.h in Headers */,
+				05E87BB01ECDDF3B008FA332 /* KNMNibLoadedControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6332CA2719461A120057F003 /* library-ios */ = {
+		05E87B9F1ECDDEC2008FA332 /* KNMNibLoadedViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6332CA4B19461A120057F003 /* Build configuration list for PBXNativeTarget "library-ios" */;
+			buildConfigurationList = 05E87BAB1ECDDEC2008FA332 /* Build configuration list for PBXNativeTarget "KNMNibLoadedViews" */;
 			buildPhases = (
-				6332CA2419461A120057F003 /* Sources */,
-				6332CA2519461A120057F003 /* Frameworks */,
-				6332CA5219461AF50057F003 /* Headers */,
+				05E87B9B1ECDDEC2008FA332 /* Sources */,
+				05E87B9C1ECDDEC2008FA332 /* Frameworks */,
+				05E87B9D1ECDDEC2008FA332 /* Headers */,
+				05E87B9E1ECDDEC2008FA332 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "library-ios";
-			productName = "library-ios";
-			productReference = 6332CA2819461A120057F003 /* libnibloadedviews.a */;
-			productType = "com.apple.product-type.library.static";
+			name = KNMNibLoadedViews;
+			productName = KNMNibLoadedViews;
+			productReference = 05E87BA01ECDDEC2008FA332 /* KNMNibLoadedViews.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		6332CA6719461CE30057F003 /* example-ios */ = {
 			isa = PBXNativeTarget;
@@ -213,11 +234,12 @@
 				6332CA6419461CE30057F003 /* Sources */,
 				6332CA6519461CE30057F003 /* Frameworks */,
 				6332CA6619461CE30057F003 /* Resources */,
+				05E87BAC1ECDDEC2008FA332 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6332CAA719461EB80057F003 /* PBXTargetDependency */,
+				05E87BA61ECDDEC2008FA332 /* PBXTargetDependency */,
 			);
 			name = "example-ios";
 			productName = "example-ios";
@@ -231,8 +253,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "konoma GmbH";
+				TargetAttributes = {
+					05E87B9F1ECDDEC2008FA332 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					6332CA6719461CE30057F003 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 6332CA2319461A120057F003 /* Build configuration list for PBXProject "KNMNibLoadedViews" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -247,13 +279,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6332CA2719461A120057F003 /* library-ios */,
+				05E87B9F1ECDDEC2008FA332 /* KNMNibLoadedViews */,
 				6332CA6719461CE30057F003 /* example-ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		05E87B9E1ECDDEC2008FA332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6332CA6619461CE30057F003 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +300,7 @@
 				6332CA8619461CE30057F003 /* Images.xcassets in Resources */,
 				6332CAA119461D7B0057F003 /* KNMSampleView.xib in Resources */,
 				6332CA7E19461CE30057F003 /* Main.storyboard in Resources */,
+				05E87BBB1ECDE0B2008FA332 /* LaunchScreen.storyboard in Resources */,
 				631894DD1A8F6F44001EFE8B /* KNMSwiftSampleView.xib in Resources */,
 				6332CA7519461CE30057F003 /* InfoPlist.strings in Resources */,
 			);
@@ -269,15 +309,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6332CA2419461A120057F003 /* Sources */ = {
+		05E87B9B1ECDDEC2008FA332 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6332CA5D19461BDF0057F003 /* KNMNibLoadedCollectionViewCell.m in Sources */,
-				6332CA5F19461BDF0057F003 /* KNMNibLoadedTableViewCell.m in Sources */,
-				63C17E0A1A88D8B60096D1D2 /* KNMNibLoadedControl.m in Sources */,
-				6332CA6319461BDF0057F003 /* KNMNibViewLoader.m in Sources */,
-				6332CA6119461BDF0057F003 /* KNMNibLoadedView.m in Sources */,
+				05E87BB41ECDDF46008FA332 /* KNMNibLoadedView.m in Sources */,
+				05E87BB71ECDDF46008FA332 /* KNMNibLoadedTableViewCell.m in Sources */,
+				05E87BB81ECDDF46008FA332 /* KNMNibViewLoader.m in Sources */,
+				05E87BB51ECDDF46008FA332 /* KNMNibLoadedControl.m in Sources */,
+				05E87BB61ECDDF46008FA332 /* KNMNibLoadedCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,10 +335,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6332CAA719461EB80057F003 /* PBXTargetDependency */ = {
+		05E87BA61ECDDEC2008FA332 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6332CA2719461A120057F003 /* library-ios */;
-			targetProxy = 6332CAA619461EB80057F003 /* PBXContainerItemProxy */;
+			target = 05E87B9F1ECDDEC2008FA332 /* KNMNibLoadedViews */;
+			targetProxy = 05E87BA51ECDDEC2008FA332 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,6 +362,72 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		05E87BA91ECDDEC2008FA332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.konoma.KNMNibLoadedViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		05E87BAA1ECDDEC2008FA332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.konoma.KNMNibLoadedViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 		6332CA4919461A120057F003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -335,12 +441,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -353,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -372,45 +484,27 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6332CA4C19461A120057F003 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/library_ios.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Sources/Prefix.pch;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = nibloadedviews;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		6332CA4D19461A120057F003 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/library_ios.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Sources/Prefix.pch;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = nibloadedviews;
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -418,7 +512,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -428,11 +521,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Example/example-ios-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.konoma.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Nib Example";
 				SWIFT_OBJC_BRIDGING_HEADER = "Example/example-ios-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -442,16 +536,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/example-ios-Prefix.pch";
 				INFOPLIST_FILE = "Example/example-ios-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.konoma.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Nib Example";
 				SWIFT_OBJC_BRIDGING_HEADER = "Example/example-ios-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,20 +554,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		05E87BAB1ECDDEC2008FA332 /* Build configuration list for PBXNativeTarget "KNMNibLoadedViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E87BA91ECDDEC2008FA332 /* Debug */,
+				05E87BAA1ECDDEC2008FA332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6332CA2319461A120057F003 /* Build configuration list for PBXProject "KNMNibLoadedViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6332CA4919461A120057F003 /* Debug */,
 				6332CA4A19461A120057F003 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6332CA4B19461A120057F003 /* Build configuration list for PBXNativeTarget "library-ios" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6332CA4C19461A120057F003 /* Debug */,
-				6332CA4D19461A120057F003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
